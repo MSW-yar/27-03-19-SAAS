@@ -1,0 +1,25 @@
+.b {
+  /* place holder class a.k.a bara variable. */
+  background-color: rgba(17, 175, 187, 0.925);
+  font-size: 40px;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.b {
+  color: black;
+  font-size: 200px;
+  border-style: dotted;
+  border-top-color: black;
+  span-color: #bd2222;
+  span-font-size: 100px;
+  span-border: dotted 5px black;
+}
+.b:hover {
+  background: blue;
+}
+.b:hover {
+  background: red;
+}
+
+/*# sourceMappingURL=/SAAS.e31bb0bc.css.map */

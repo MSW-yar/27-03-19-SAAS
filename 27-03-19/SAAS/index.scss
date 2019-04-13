@@ -1,0 +1,27 @@
+%name {  /* place holder class a.k.a bara variable. */
+  background-color: hsla(184, 83%, 40%, 0.925);
+  font-size: 40px;   
+  text-align: center;
+  margin-top: 200px;
+}
+
+.b {@extend %name;
+    color: black;
+  font-size: 200px;
+  border-style: dotted;
+  border-top-color: black;
+
+  &:hover {
+    background: blue;
+  }
+
+  span:  {
+    color: rgb(189, 34, 34);
+    font-size: 100px;
+    border: dotted 5px black;
+
+  }&:hover{
+        background: red;
+    }
+  }
+
